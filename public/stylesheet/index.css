@@ -7,12 +7,24 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
-.extend-col1{
-    padding-top: 12%;
+.row-extend{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 3%;
+}
+
+.extend-col{
+    
+    flex-basis: 60%;
+    min-width: 270px;
+
+
 } 
  .img-res{
-    width: 72%;
-    height: 87%;
+  max-width: 72%;
+padding:0 20px;
 }
 
 
