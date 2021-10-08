@@ -56,6 +56,10 @@
 
 
 
+<%-include('partials/header.ejs');%>
+<link rel="stylesheet" href="stylesheet/index.css">
+<link rel="stylesheet" href="stylesheet/product-details.css">
+
 
 <div class="small container single-product">
 <div class="row">
@@ -89,11 +93,13 @@
             <option>Medium</option>
             <option>Small</option>
         </select>
-        <input type="number" value="1"> <a href="" class="btn">Add to Cart</a>
+        <input type="number" value="1"> <a href="/cart" class="btn">Add to Cart</a>
 
         <h3>Product Details</h3>
         <p class="det">Give your summer wardrobe a style upgrade with the Nike Men's Half Pant. Team it with a pair of shorts for morning workout or a denims for evening out with the guys.</p>
-    </div>
+        <a href="/ordernow" class="btn">Order Now</a>
+      </div>
+
 </div>
 </div>
 <div class="small-container related-img">
@@ -159,6 +165,12 @@
     </div>
 
 </div>
+<script src="javascript/productdetails.js">
+  </script>
+
+<%-include('partials/footer.ejs');%>
+
+
 
 
 <footer class="container-fluid bg-grey py-5">
